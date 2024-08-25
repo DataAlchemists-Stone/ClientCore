@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    width: 98%;
+    height: 6rem;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px 0px lightgray; 
+
+    z-index: 1;
+    position: fixed; /* Fixa a header no topo da tela */
+    top: 0;
+    left: 0;
+}
+
+.infos-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.nome-negocio {
+    background-color: #F6F6F6;
+    border-radius: 5rem;
+    padding: 0.8rem;
+
+    color: #017649;
+}
+
+.user-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.user-nav-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.user-nav-infos > p {
+    margin: 0;
+}
+
+.user-nav-infos > h3 {
+    margin: 0;
+    color: #017649;
+}
+
+nav.menu-lateral {
+    width: 350px;
+    height: 100%;
+    margin-top: 6rem;
+    background-color: #02A767;
+    padding: 40px 40px 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    background-color: white;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+span.icon > img {
+    width: 30%;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.item-menu:hover {
+    background: #017649;
+    border-radius: 1.5rem;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 20px 4%;
+
+    display: flex;
+    margin-bottom: 5px;
+    line-height: 40px;
+}
+
+ul li.item-menu a span.txt-link {
+    margin-left: 40px;
+    font-size: 1.35rem;
+}
+
+ul li.item-menu a.icon > i {
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 6rem;
+    margin-left: 350px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #017649;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* .line {
+    width: 30%; 
+    margin-left: 3rem;
+} */
+
+.explicacao {
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.definicao {
+    color: #017649;
+}
+
+.parte-inferior {
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.analise {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #D5F2E7;
+
+    width: 1630px;
+    height: 500px;
+
+    border-radius: 40px;
+
+}
+
+.grafico {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    border-radius: 50px;
+    width: 810px;
+    height: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.grafico > img {
+    margin: 1rem 0;
+}
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    background-color: #ffff;
+    border-radius: 50px;
+    height: 90%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.tabela p {
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.tabela span {
+    background-color: #017649;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: white;
+}
+

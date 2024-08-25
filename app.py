@@ -14,5 +14,9 @@ def registro():
 def home():
     return render_template('home.html')
 
+@app.route('/precomedio')
+def precomedio():
+    return render_template('precomedio.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
