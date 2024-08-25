@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Registre-se</title>
+    <link rel="shortcut icon" href="../static/images/icon.png">
+</head>
+
+<body>
+    <main class="main-registro">
+        <section class="left-login">
+            <img src="../static/images/hero.png" class="left-register-image">
+        </section>
+
+        <section class="right-register">
+            <img src="../static/images/logo.png" width="30%">
+            <div class="card-login">
+                <h1 class="title-registro">Crie sua conta</h1>
+                <!-- <img src="../static/images/line.svg" width="30%" /> -->
+                <div class="text-field">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+
+                <div class="text-field">
+                    <label for="cpf">CPF</label>
+                    <input type="cpf" name="cpf" placeholder="CPF">
+                </div>
+
+                <div class="text-field">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" placeholder="Nome Completo">
+                </div>
+
+                <div class="text-field">
+                    <label for="data de nascimento">Data de Nascimento</label>
+                    <input type="date" name="Nome Completo" placeholder="Nome Completo">
+                </div>
+
+                <div class="text-field">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="senha">
+                </div>
+
+                <div class="text-field">
+                    <label for="confirme sua senha">Confirme sua senha</label>
+                    <input type="password" name="confirme sua senha" placeholder="Confirme sua senha">
+                </div>
+
+                <div class="text-field">
+                    <label for="nome do negocio">Nome do seu negócio</label>
+                    <input type="text" name="nome do negocio" placeholder="Nome do seu negócio">
+                </div>
+
+                <button class="btn-login">Continuar</button>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
