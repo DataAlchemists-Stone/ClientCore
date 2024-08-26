@@ -6,7 +6,7 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><a href="https://www.linkedin.com/in/ana-beggiato/"><img src="C:\Users\Inteli\Desktop\ClientCore\assets\AnaBeggiato.png" alt="" width="100px"><br><sub><b>Ana Beggiato</b></sub></a></td>
+      <td align="center"><a href="https://www.linkedin.com/in/ana-beggiato/"><img src="assets/JoaoGuilherme.png" alt="" width="100px"><br><sub><b>Ana Beggiato</b></sub></a></td>
       <td align="center"><a href="https://www.linkedin.com/in/gabriela-silvaa/"><img src="C:\Users\Inteli\Desktop\ClientCore\assets\GabrielaSilva.png" alt="" width="100px"/><br><sub><b>Gabriela Silva</b></sub></a></td>
        <td align="center"><a href="https://www.linkedin.com/in/anneestherlf/"><img style="" width="100px" src="C:\Users\Inteli\Desktop\ClientCore\assets\AnneEsther.png"  alt=""/><br><sub><b>Anne Esther</b></sub></a></td>
       <td align="center"><a href="https://www.linkedin.com/in/jo%C3%A3oguilhermelima/"><img style="" width="100px" src="C:\Users\Inteli\Desktop\ClientCore\assets\JoaoGuilherme.png" alt=""/><br><sub><b>João Guilherme</b></sub></a></td>
