@@ -164,10 +164,6 @@ h1 {
     font-weight: 800;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-}
 
 .infos-pessoais {
     display: flex;
@@ -203,3 +199,4 @@ h1 {
     justify-content: center;
     margin-top: 1rem;
 }
+
