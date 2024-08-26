@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    width: 98%;
+    height: 6rem;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px 0px lightgray; 
+
+    z-index: 1;
+    position: fixed; /* Fixa a header no topo da tela */
+    top: 0;
+    left: 0;
+}
+
+.infos-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.nome-negocio {
+    background-color: #F6F6F6;
+    border-radius: 5rem;
+    padding: 0.8rem;
+
+    color: #017649;
+}
+
+.user-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.user-nav-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.user-nav-infos > p {
+    margin: 0;
+}
+
+.user-nav-infos > h3 {
+    margin: 0;
+    color: #017649;
+}
+
+nav.menu-lateral {
+    width: 200px;
+    height: 100%;
+    margin-top: 6rem;
+    background-color: #02A767;
+    padding: 40px 40px 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    background-color: white;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+span.icon > img {
+    width: 30%;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.item-menu:hover {
+    background: #017649;
+    border-radius: 1rem;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 1%;
+
+    display: flex;
+    margin-bottom: 5px;
+    line-height: 1rem;
+    align-items: center;
+}
+
+ul li.item-menu a span.txt-link {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+ul li.item-menu a.icon > i {
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 14rem;
+    margin-top: 7rem;
+
+    width: 80rem;
+    height: 90%;
+}
+
+.visao-geral {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card-grafico {
+    display: flex;
+    flex-direction: column;
+    background-color: #D5F2E7;
+    border-radius: 2.5rem;
+    gap: 1rem;
+    
+    width: 32rem;
+    height: 20rem;
+}
+
+.card-grafico > h3 {
+    color: #017649;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.grafico {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 70%;
+    height: 100%;
+
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.riscos {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.card-riscos {
+    display: flex;
+    flex-direction: column;
+    background-color: #D5F2E7;
+    border-radius: 2.5rem;
+    gap: 1rem;
+    width: 1892px;
+    height: 20rem;
+    margin-top: -1.5rem;
+}
+
+.card-riscos > h3 {
+    color: #017649;
+    font-weight: 600;
+    font-size: 2rem;
+
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.grafico-conj {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 70%;
+    height: 71rem;
+
+    margin-left: 10rem;
+    margin-bottom: 0;
+}

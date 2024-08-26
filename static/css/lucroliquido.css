@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    width: 98%;
+    height: 6rem;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px 0px lightgray; 
+
+    z-index: 1;
+    position: fixed; /* Fixa a header no topo da tela */
+    top: 0;
+    left: 0;
+}
+
+.infos-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.nome-negocio {
+    background-color: #F6F6F6;
+    border-radius: 5rem;
+    padding: 0.8rem;
+
+    color: #017649;
+}
+
+.user-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.user-nav-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.user-nav-infos > p {
+    margin: 0;
+}
+
+.user-nav-infos > h3 {
+    margin: 0;
+    color: #017649;
+}
+
+nav.menu-lateral {
+    width: 200px;
+    height: 100%;
+    margin-top: 6rem;
+    background-color: #02A767;
+    padding: 40px 40px 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    background-color: white;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+span.icon > img {
+    width: 30%;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.item-menu:hover {
+    background: #017649;
+    border-radius: 1rem;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 1%;
+
+    display: flex;
+    margin-bottom: 5px;
+    line-height: 1rem;
+    align-items: center;
+}
+
+ul li.item-menu a span.txt-link {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+ul li.item-menu a.icon > i {
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 6rem;
+    margin-left: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #017649;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* .line {
+    width: 30%; 
+    margin-left: 3rem;
+} */
+
+.explicacao {
+    font-size: 1rem;
+    padding: 3rem;
+    width: 80rem;
+}
+
+.definicao {
+    color: #017649;
+}
+
+.parte-inferior {
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.analise {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #D5F2E7;
+
+    width: 78rem;
+    height: 25rem;
+
+    border-radius: 40px;
+}
+
+.grafico {
+    display: flex;
+    justify-content: center;
+    background-color: #D5F2E7;
+    border-radius: 50px;
+    width: 810px;
+    height: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.grafico > img {
+    margin: 1rem 0;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 39rem;
+    height: 50%;
+
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 50px;
+}
+
+.texto p {
+    padding: .5rem;
+    font-size: 1rem;
+    color: #006D43;
+    padding-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.texto  span {
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: #006D43;
+    font-weight: 900;
+}
+
+.anual {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.destaque {
+    background-color: #006D43;
+    border-radius: 20px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+
+    align-items: center ;
+}
+
+.destaque p {
+    color: #D5F2E7;
+    padding: 1rem 1rem;
+    margin: 0;
+}
+
+.destaque span {
+    color: #D5F2E7;
+    font-weight: 800;
+    padding: 0;
+    font-weight: 900;
+}

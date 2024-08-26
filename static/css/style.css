@@ -1,13 +1,14 @@
 body {
-    overflow: hidden;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-main {
+.main-login {
     display: flex;
     flex-direction: row;
+
+    overflow: hidden;
 }
 
 .left-login {
@@ -38,8 +39,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin: 0;
     color: #FFFFFF;
+    width: 80%;
 }
 
 .text-field {
@@ -48,34 +50,36 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 10px 0px;
+    margin: 0px 0px;
 }
 
-.text-field > input {
+.text-field>input {
     width: 100%;
+    height: 30%;
     border: none;
     border-radius: 10px;
     padding: 15px;
 
     background: #F6F6F6;
-    color: #f0ffffde;
+    color: #444444;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
     box-sizing: border-box;
 }
 
-.text-field > label {
+.text-field>label {
     color: #f0ffffde;
     margin-bottom: 10px;
 }
 
-.text-field > input::placeholder {
+.text-field>input::placeholder {
     color: #f0ffff94;
 }
 
 .btn-login {
     width: 100%;
+    height: 20%;
     padding: 16px 0px;
     margin: 25px;
 
@@ -103,4 +107,36 @@ main {
     margin: 0;
     padding: 0;
     font-size: 0.8rem;
+}
+
+.main-registro {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    overflow: auto;
+}
+
+.right-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #02A767;
+    width: 80%;
+}
+
+.left-register-image {
+    width: 100%;
+}
+
+.title-registro {
+    margin: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
