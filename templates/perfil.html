@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/lucroliquido.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/perfil.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Lucro Líquido</title>
+    <title>Perfil</title>
     <link rel="shortcut icon" href="../static/images/icon.png">
 </head>
 
@@ -97,32 +97,16 @@
         </nav>
 
         <section class="content">
-            <h1>Lucro Líquido</h1>
-            <!-- <img src="../static/images/lineverde.svg" class="line"/> -->
-            <p class="explicacao">O lucro líquido é a<span class="definicao">diferença entre todas as receitas da
-                    empresa e todos os gastos envolvidos</span> para que ela funcione. Ou seja, é todo o recurso que
-                sobra depois de deduzidos os custos, despesas e impostos.</p>
-
-            <section class="parte-inferior">
-                <section class="analise">
-                    <div class="grafico">
-                        <img src="../static/images/graficolucroliquido.svg" width="70%" />
-                    </div>
-
-                    <div class="texto">
-                        <div class="anual">
-                            <img src="../static/images/dropdown.svg" width="30%"/>
-                        </div>
-                        <p>Receita: <span>4000</span></p>
-                        <p>Custos: <span>900</span></p>
-                        <p>Despesas: <span>500</span></p>
-                        <p>Impostos: <span>200</span></p>
-                        <div class="destaque">
-                            <p>Lucro Líquido: 2400</p>
-                        </div>
-                    </div>
-                </section>
+            <section class="infos-pessoais">
+                <img src="../static/images/perfil.png" />
+                <div class="nome-e-negocio">
+                    <h1> Francisco da Silva</h1>
+                    <span>Mercado Tiradentes  </span>
+                </div>
             </section>
+<div class="persona">
+            <img src="../static/images/persona.svg" width="90%"/>
+        </div>
         </section>
     </main>
 </body>
