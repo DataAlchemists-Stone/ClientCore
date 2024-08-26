@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+// Configurar o diretório para arquivos estáticos
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Definir as rotas para servir os arquivos HTML
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'login.html'));
+});
+
+app.get('/registro', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'registro.html'));
+});
+
+app.get('/home', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'home.html'));
+});
+
+app.get('/precomedio', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'precomedio.html'));
+});
+
+app.get('/lucroliquido', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'lucroliquido.html'));
+});
+
+app.get('/cac', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'cac.html'));
+});
+
+app.get('/artigos', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'artigos.html'));
+});
+
+app.get('/cursos', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'cursos.html'));
+});
+
+app.get('/ajuda', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'ajuda.html'));
+});
+
+app.get('/perfil', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'perfil.html'));
+});
+
+// Iniciar o servidor
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta ${PORT}`);
+});
+
+</script>
+</html>
