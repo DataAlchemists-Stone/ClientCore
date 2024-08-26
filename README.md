@@ -61,7 +61,7 @@ Link para a Estika:
 
 ## 🔧 <a name="c5"></a>Tecnologias utilizadas
 
-&nbsp;&nbsp;&nbsp;Para a criação da Estika, utilizou-se HTML e CSS por meio do VScode para dar vida ao front-end. Além disso, fez-se presente a utilização do Python por meio do framework Flask que é utilizado para desenvolvimento web em python para renderizar a página. 
+&nbsp;&nbsp;&nbsp;Para a criação da Estika, utilizou-se HTML e CSS por meio do VScode para dar vida ao front-end. Além disso, fez-se presente a utilização do framework Express que é utilizado para desenvolvimento web para renderizar a página. 
 
 ## 3. <a name="c6"></a>Roadmap
 
