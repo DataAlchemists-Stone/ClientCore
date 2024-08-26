@@ -18,5 +18,25 @@ def home():
 def precomedio():
     return render_template('precomedio.html')
 
+@app.route('/lucroliquido')
+def lucroliquido():
+    return render_template('lucroliquido.html')
+
+@app.route('/cac')
+def cac():
+    return render_template('cac.html')
+
+@app.route('/artigos')
+def artigos():
+    return render_template('artigos.html')
+
+@app.route('/cursos')
+def cursos():
+    return render_template('cursos.html')
+
+@app.route('/ajuda')
+def ajuda():
+    return render_template('ajuda.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
